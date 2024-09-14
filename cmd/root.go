@@ -30,7 +30,7 @@ import (
 )
 
 const (
-	VERSION = "1.0.1"
+	VERSION = "v1.0.2"
 
 	Bold   = "\033[1m"
 	Cyan   = "\033[36m"
