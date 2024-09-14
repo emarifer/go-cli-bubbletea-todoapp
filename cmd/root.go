@@ -30,21 +30,21 @@ import (
 )
 
 const (
-	VERSION = "1.0.0"
+	VERSION = "1.0.1"
 
-	Reset   = "\033[0m"
-	Red     = "\033[31m"
-	Green   = "\033[32m"
-	Yellow  = "\033[33m"
-	Blue    = "\033[34m"
-	Magenta = "\033[35m"
-	Cyan    = "\033[36m"
-	Gray    = "\033[37m"
-	White   = "\033[97m"
-	Orange  = "\x1b[38:5:202m"
-	Maroon  = "\x1b[38:5:1m"
-	Lime    = "\x1b[38:5:46m"
-	Bold    = "\033[1m"
+	Bold   = "\033[1m"
+	Cyan   = "\033[36m"
+	Lime   = "\x1b[38;5;10m"
+	Maroon = "\x1b[38;5;1m"
+	Reset  = "\033[0m"
+	White  = "\033[97m"
+	Yellow = "\033[33m"
+	// Blue    = "\033[34m"
+	// Gray    = "\033[37m"
+	// Green   = "\033[32m"
+	// Magenta = "\033[35m"
+	// Orange  = "\x1b[38:5:202m"
+	// Red     = "\033[31m"
 )
 
 // rootCmd represents the base command when called without any subcommands

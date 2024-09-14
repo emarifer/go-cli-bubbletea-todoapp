@@ -46,7 +46,7 @@ This command displays a nice table of all the task list.`,
 		Run: func(cmd *cobra.Command, args []string) {
 			tasksList := models.GetAll(db)
 			if len(tasksList) == 0 {
-				fmt.Println(Orange + Bold + "There are no tasks to do ¯\\_(ツ)_/¯" + Reset)
+				fmt.Println(Yellow + Bold + "There are no tasks to do ¯\\_(ツ)_/¯" + Reset)
 				return
 			}
 

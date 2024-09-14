@@ -37,7 +37,7 @@ import (
 
 const (
 	Bold   = "\033[1m"
-	Maroon = "\x1b[38:5:1m"
+	Maroon = "\x1b[38;5;1m"
 	Reset  = "\033[0m"
 )
 

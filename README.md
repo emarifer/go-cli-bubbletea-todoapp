@@ -60,7 +60,7 @@
 If you want to install the application on your machine and you have Go installed, you can simply run the following command (requires Go 1.23 or higher):
 
 ```
-$ go install -ldflags="-s -w" github.com/emarifer/go-cli-bubbletea-todoapp/cmd/task@1.0.0
+$ go install -ldflags="-s -w" github.com/emarifer/go-cli-bubbletea-todoapp/cmd/task@1.0.1
 ```
 
 This will download the source code (and any necessary dependencies) and compile it into an executable that will be placed in the PATH you've set for Golang binaries.
