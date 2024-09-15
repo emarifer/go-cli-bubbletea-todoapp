@@ -31,6 +31,12 @@
 
 <br>
 
+###### Terminal showing application help:
+
+<img src="doc/screenshot-07.png" width="50%" align="top">
+
+<br>
+
 ###### Terminal showing successful task creation and list of tasks in table form:
 
 <img src="doc/screenshot-03.png" width="60%" align="top">

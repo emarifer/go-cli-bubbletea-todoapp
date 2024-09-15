@@ -92,4 +92,4 @@ changelog:
 # goreleaser release --snapshot --clean
 # goreleaser check
 
-# git tag 1.0.0 && git push --tags
+# git tag v1.0.3 && git push origin v1.0.3

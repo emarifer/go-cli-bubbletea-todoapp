@@ -30,7 +30,7 @@ import (
 )
 
 const (
-	VERSION = "v1.0.2"
+	VERSION = "v1.0.3"
 
 	Bold   = "\033[1m"
 	Cyan   = "\033[36m"
@@ -51,9 +51,20 @@ const (
 var rootCmd = &cobra.Command{
 	Use:     "task",
 	Version: VERSION,
-	Short:   "Task is a command line application for managing to-do tasks.",
+	Short:   "TaskManager is a command line application for managing to-do tasks.",
 	Long: `
-Task is a simple yet elegant command-line application
+
+ _______        _    __  __                                   
+|__   __|      | |  |  \/  |                                  
+   | | __ _ ___| | _| \  / | __ _ _ __   __ _  __ _  ___ _ __ 
+   | |/ _` + "`" + ` / __| |/ / |\/| |/ _` + "`" + ` | '_ \ / _` + "`" + ` |/ _` + "`" + ` |/ _ \ '__|
+   | | (_| \__ \   <| |  | | (_| | | | | (_| | (_| |  __/ |   
+   |_|\__,_|___/_|\_\_|  |_|\__,_|_| |_|\__,_|\__, |\___|_|   
+                                               __/ |          
+                                              |___/           
+	
+
+TaskManager is a simple yet elegant command-line application
 for managing to-do tasks,
 allowing computer terminal lovers to work
 without leaving their favorite environment.`,
@@ -91,3 +102,8 @@ func init() {
 	// when this action is called directly.
 	rootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
+
+/* REFERENCES:
+https://www.ascii-art-generator.org/
+https://stackoverflow.com/questions/21198980/how-to-escape-back-ticks
+*/
